@@ -33,5 +33,13 @@
             android:src="@+id/img01"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+        <ImageView
+            android:src="@+id/img02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:src="@+id/img03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </ViewFlipper>
 </LinearLayout>
