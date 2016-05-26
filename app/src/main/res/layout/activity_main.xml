@@ -12,7 +12,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
             android:id="@+id/but_start"
@@ -24,21 +24,30 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/but_text_stop"/>
+        <EditText
+            android:id="@+id/edit_time"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_second"/>
     </LinearLayout>
     <ViewFlipper
         android:id="@+id/view_flip"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <ImageView
-            android:src="@+id/img01"
+            android:src="@drawable/img01"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
         <ImageView
-            android:src="@+id/img02"
+            android:src="@drawable/img02"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
         <ImageView
-            android:src="@+id/img03"
+            android:src="@drawable/img03"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </ViewFlipper>
